@@ -33,11 +33,10 @@ function ClearDisplay(){
 function calculate(){
   try{
     equation = eval(equation);
-    display.value = eqiation;
+    display.value = equation;
   }
   catch(error){
-    display.value = 'Error';
-    display.value.style.color = "red";
+    display.value = "Error";
     equation = "";
   }
 }
