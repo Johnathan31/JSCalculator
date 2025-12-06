@@ -39,6 +39,8 @@ function calculate(){
     display.value = "Error";
     equation = "";
   }
+  display.value = "";
+  equation = "";
 }
 function special(){
   display.value = display.value.slice(0, -1)
