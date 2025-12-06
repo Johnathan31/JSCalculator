@@ -32,8 +32,8 @@ function ClearDisplay(){
         
 function calculate(){
   try{
-    display.value = eval(equation);
     equation = eval(equation);
+    display.value = eqiation;
   }
   catch(error){
     display.value = 'Error';
