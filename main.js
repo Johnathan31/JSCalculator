@@ -37,7 +37,7 @@ function calculate(){
     equation = ""
   }
   catch(error){
-    display.value = "Error";
+    display.value = error;
     equation = "";
   }
 }
