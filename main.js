@@ -32,14 +32,14 @@ function ClearDisplay(){
         
 function calculate(){
   try{
-    display.value = eval(equation)
-    equation = display.value
+    display.value = eval(equation);
+    equation = display.value;
   }
   catch(error){
     display.value = "Error";
+    display.value.style.color = "red";
     equation = "";
   }
-  display.value = "";
   equation = "";
 }
 function special(){
