@@ -11,12 +11,12 @@ function appendToDisplay(input){
     equation += "*";
   }
   else if (input == "/") {
-    display.value += "÷"
-    equation += "/"
+    display.value += "÷";
+    equation += "/";
   }
   else if(input == "^"){
-    display.value += "^"
-    equation += "**"
+    display.value += "^";
+    equation += "**";
   }
   else {
     display.value += input;
@@ -32,12 +32,12 @@ function ClearDisplay(){
         
 function calculate(){
   try{
-    const output = eval(equation);
-    display.value = output;
-    equation = ""
+    display.value = eval(equation);
+    equation = eval(equation);
   }
   catch(error){
-    display.value = error;
+    display.value = 'Error';
+    display.value.style.color = "red";
     equation = "";
   }
 }
