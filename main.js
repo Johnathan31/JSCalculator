@@ -32,12 +32,12 @@ function ClearDisplay(){
         
 function calculate(){
   try{
-    equation = eval(equation);
-    display.value = "";
+    const output = eval(equation);
+    display.value = output;
+    equation = ""
   }
   catch(error){
     display.value = "Error";
-    display.value.style.color = "red";
     equation = "";
   }
 }
