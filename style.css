@@ -21,14 +21,13 @@ body{
     height: 600px;
 }
 #calculator #display{
-    width: 100%;
+    width: 90%;
     padding: 20px;
     font-size: 3rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
-    word-break: break-all;
 }
 #keys{
     display: grid;
