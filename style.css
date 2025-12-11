@@ -21,7 +21,7 @@ body{
     height: 600px;
 }
 #calculator #display{
-    width: 90%;
+    width: 80%;
     padding: 20px;
     font-size: 3rem;
     text-align: left;
